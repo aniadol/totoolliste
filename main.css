@@ -1,0 +1,142 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    background-image: url(.//img/pexels-irina-iriser-1590551.jpg);
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family:'Poiret One', cursive;
+}
+
+.titre1 {
+    margin-bottom: 50px;
+}
+
+.date1 {
+    margin-bottom: 30px;
+}
+
+.date {
+    padding-right: 30px;
+}
+
+label {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+}
+
+* input {
+    padding: 10px;
+    margin: 5px;
+    width: 70%;
+    border-radius: 25px;
+    border-style: hidden;
+    background-color: bisque;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+* img {
+    width: 3%;
+    height: 3%;
+}
+
+.listeobjectif {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.liste {
+    width: 100%;
+    height: 300px;
+}
+
+.objectif {
+    width: 100%;
+    height: 300px;
+}
+
+#titre {
+    text-align: center;
+}
+
+.date {
+    justify-content: center;
+}
+
+.checkbox {
+    width: 5% ;
+}
+
+.rendezvous {
+ height: 100Px;
+ width: 80%;
+}
+
+.notes {
+    height: 100Px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.rendezvous1 {
+    margin-bottom: 50px;
+}
+
+.time {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+@media screen and (max-width: 1280px)
+{
+   .listeobjectif {
+       display: block;
+   }
+
+   h1 {
+    font-size: 2rem;
+   }
+}
+
+.autent {
+    width: 40%;
+}
+
+.btn {
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: arial;
+    font-size: 1em;
+    color: black;
+    background-color:bisque ;
+    border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 12px #444444;
+    }
+    
+    
+    .btn:hover {
+    padding: 10px 30px;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }
